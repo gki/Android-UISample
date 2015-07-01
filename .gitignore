@@ -1,0 +1,12 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+# Android Studio can create automatically these files from build.gradle
+*.iml
+.idea/modules.xml
+.idea/misc.xml
