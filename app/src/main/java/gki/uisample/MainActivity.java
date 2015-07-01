@@ -76,6 +76,7 @@ public class MainActivity extends Activity {
         final ProgressDialog pd = new ProgressDialog(this);
         pd.setMessage("Loading...");
         pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        pd.setCancelable(false);
         pd.show();
 
         new Handler().postDelayed(new Runnable() {
